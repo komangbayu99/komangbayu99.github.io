@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayu Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c8706e1b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Navbar Start -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="gambar/logo.png" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+<!-- Navbar End -->
+
+<!-- Content Start -->
+        <div class="header-text">
+            <p>FRONT-END DEVELOPER</p>
+            <h1>Hi, I'm <span>Bayu</span> <br> From Indonesia</h1>
+        </div>
+    </div>
+</div>
+<!-- Content End -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="gambar/user1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>Hi! I'm Bayu Trianayasa, if you guys see a woman beside me from your screen, that's my support system and has been since early 2022.
+                Back to the topic, i'm fresh graduated from Information Technology at Institut Teknologi Sepuluh Nopember with 3.26 GPA. Since i studied 4 years ago at my college
+                i had some academic experince and non academic experince. So if you guys curious about my experince, you can explore this portofolio to know about me!
+                Thank You!
+                </p>
+
+                <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experiece</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+                        <li><span>FrontEnd Development</span><br>Web App Development</li>
+                        <li><span>IT Governance</span><br>Cobit 2019</li>
+                        <li><span>UI?UX</span><br>Designing Web App Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022</span><br>FrontEnd Virtual Internship Experince at Core Initiative</li>
+                        <li><span>2021-2022</span><br>Auditing IT Governance at Pemkab Tuban</li>
+                        <li><span>2021</span><br>Internship at Polda Jatim as a Junior Web Developer</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>React Js & Laravel Bootcamp at Camp404</li>
+                        <li><span>2022</span><br>Graduated From Institute Teknologi Sepuluh Nopember</li>
+                        <li><span>2019</span><br>Linux Training At Information Technology Departement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------------services--------------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>FrontEnd Developer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ut modi 
+                    expedita? Harum accusantium aliquam rem explicabo delectus possimus, similique repellat alias dicta earum. Necessitatibus hic repellat dignissimos molestiae ratione.</p>
+                    <a href="#">See More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>IT Governance</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ut modi 
+                    expedita? Harum accusantium aliquam rem explicabo delectus possimus, similique repellat alias dicta earum. Necessitatibus hic repellat dignissimos molestiae ratione.</p>
+                    <a href="#">See More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ut modi 
+                    expedita? Harum accusantium aliquam rem explicabo delectus possimus, similique repellat alias dicta earum. Necessitatibus hic repellat dignissimos molestiae ratione.</p>
+                    <a href="#">See More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------------------------Portofolio---------------------------------------------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="gambar/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas blanditiis nam facere nobis eligendi distinctio eius 
+                        accusamus ratione odit amet dolor vero excepturi nesciunt labore, laboriosam totam soluta at.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="gambar/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas blanditiis nam facere nobis eligendi distinctio eius 
+                        accusamus ratione odit amet dolor vero excepturi nesciunt labore, laboriosam totam soluta at.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="gambar/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas blanditiis nam facere nobis eligendi distinctio eius 
+                        accusamus ratione odit amet dolor vero excepturi nesciunt labore, laboriosam totam soluta at.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="# " class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ---Contact---- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> bayu.trianayasa18@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 081393220729</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/bayu.ambasador"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/bayutrnys_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bayutrianayasa/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="gambar/BayuTrianayasa_CurriculumVitae.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name">
+                <input type="email" name="Email" placeholder="Your Email">
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg">Hello</span>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- copyright -->
+
+<div class="copyright">
+    <p>Copyright ©️ Bayu. Made with <i class="fa-solid fa-heart"></i> by BayuTrianayasa  </p>
+</div>
+
+<script> 
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+
+</script>
+
+<script>
+
+    var menu = document.getElementById("sidemenu");
+
+    function openmenu(){
+
+        menu.style.right = "0";
+    }
+
+    function closemenu(){
+        menu.style.right = "-200px"
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbztFeN_9C32uIQ6t9ZDrIpqCSE3sn4s-c_ZMVpI91ahNyoDZmCyRhBMyrFEy6iuVSBP/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msf = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully" 
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+
+
+</html>
